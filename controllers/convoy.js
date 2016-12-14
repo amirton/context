@@ -5,7 +5,7 @@ var messages = require('../utils/messages');
 var validate = require('../middlewares/validate');
 var FCM = require('fcm-push');
 
-var serverKey = 'AAAASRz1GkU:APA91bE0AjgppVELB1eSnNcsN7dq7Z6MeysZDY4uJG34JKuq5mbZ1qlV697lj-SUPeOpSH5GHKwAZVCAbmPXH9pU3NiXLJtUfKdBzJ1E-7sQJMam8-Kz-RblhOrKBmA2GCCnNXza2e02CtovGbCSKzaC_5NhfbuobA';
+var serverKey = 'AAAAPS3yofA:APA91bG0LLTT3g0dQQkYiZur9qjp0tXb1y3p1z7iH79eWN0sos-TtVy1If4xQ_p0-Z9byo6BLFWEwfx2Cz8bxWfNP-zgX08CPQALszmoV-LOq3UOiDOWRWg8OjwRedwQqE7OL6SctnsAv89B7VVKvzA09PH8H3gn1A';
 var fcm = new FCM(serverKey);
 
 
