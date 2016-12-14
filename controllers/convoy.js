@@ -52,6 +52,9 @@ var deviceTokenList = [];
 module.exports = function(app) {
 
     var controller = {
+      registered: function(request, response) {
+          return deviceTokenList;
+      },
       register: function(request, response) {
 
         //Add itens to array if it does not exist
